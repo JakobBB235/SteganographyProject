@@ -1,7 +1,7 @@
 from PIL import Image
 
 
-im = Image.open('test_modified.png')  # Insert image to decode
+im = Image.open('test_modified2.png')  # Insert image to decode
 image = im.load()
 decode_key = open("key.txt", "r")
 key = decode_key.read()
